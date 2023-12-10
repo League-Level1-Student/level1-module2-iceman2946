@@ -1,7 +1,10 @@
 package _02_smurf;
 
 public class SmurfRunner {
-	Smurf handySmurf= new Smurf("Handy Smurf");
-	
+	public static void main(String [] args) {
+		Smurf handySmurf= new Smurf("Handy");
+		System.out.println(handySmurf.getName());
+		handySmurf.eat();
+	}
 	
 }
