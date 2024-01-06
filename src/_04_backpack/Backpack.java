@@ -46,6 +46,7 @@ public class Backpack {
 		System.out.println("You put " + description + " in your Backpack");
 	}
 
+
 	public void goToSchool() {
 		if (pencil == null || ruler == null || textbook == null) {
 			System.err.println("ERROR: You are not ready for School!");
